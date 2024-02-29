@@ -1,23 +1,27 @@
 .button {
-			  border: none;
-			  padding: 9px 16px;
-			  text-align: center;
-			  display: inline-block;
-			  font-size: 22px;
-			  margin: 14px 8px;
-			  transition-duration: 0.1s;
-			  cursor: pointer;
-			}
+	border: none;
+	padding: 9px 16px;
+	text-align: center;
+	display: inline-block;
+	font-size: 22px;
+	margin: 14px 8px;
+	transition-duration: 0.1s;
+	cursor: pointer;
+}
 			
-			.button1 {
-			  background-color: #FC4B08;
-			  color: white;
-			  border: 8px groove #CC5500;
-			}
-			
-			.button1:hover {
-			  background-color: #F8D568;
-			  color: #7B3804;
-			  border: 8px groove #EAA222;
-			  transform: scale(1.3);
-			}
+.button1 {
+	background-color: #FC4B08;
+	color: white;
+	border: 8px groove #CC5500;
+}
+.button1:hover {
+	background-color: #F8D568;
+	color: #7B3804;
+	border: 8px groove #EAA222;
+	transform: scale(1.3);
+}
+h1 {
+	color: white;
+	font-size: 64px;
+	font-weight: bold;
+}
