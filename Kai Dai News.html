@@ -21,6 +21,15 @@
 			</tr>
 		</table>
 		</header>
+		<?php
+		$time_period = date('a', time());
+		if ($time_period == "am") {
+			echo "morning now";
+		}
+		else {
+			echo "not morning";
+		}
+		?>
 		<table>
 			<tr>
 				<td>
