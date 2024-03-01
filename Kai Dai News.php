@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html>
 	<head>
 		<title>Caau Ce Siu Kai Dai</title>
