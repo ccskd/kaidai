@@ -1,3 +1,8 @@
+@font-face {
+  font-family: pixel;
+  src: url(sansation_light.woff);
+}
+
 .button {
 	border: none;
 	padding: 9px 16px;
@@ -19,6 +24,11 @@
 	color: #7B3804;
 	border: 8px groove #EAA222;
 	transform: scale(1.3);
+}
+.button2 {
+	background-color: #E25822;
+}
+.button2:hover {
 }
 .h1 {
 	color: white;
