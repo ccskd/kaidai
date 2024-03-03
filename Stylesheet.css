@@ -2,6 +2,9 @@
   font-family: arcade;
   src: url(ARCADECLASSIC.TTF);
 }
+* {
+   font-family: myFirstFont;
+}
 
 .button {
 	border: none;
