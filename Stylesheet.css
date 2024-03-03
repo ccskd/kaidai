@@ -3,7 +3,7 @@
   src: url(ARCADECLASSIC.TTF);
 }
 @font-face {
-	font-family: connection serif;
+	font-family: connectionSerif;
 	src: url(ConnectionSerif-d20X.otf);
 }
 * {
