@@ -2,6 +2,10 @@
   font-family: arcade;
   src: url(ARCADECLASSIC.TTF);
 }
+@font-face {
+	font-family: connection serif;
+	src: url(ConnectionSerif-d20X.otf);
+}
 * {
    font-family: arcade;
 }
