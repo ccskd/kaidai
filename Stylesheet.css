@@ -6,6 +6,10 @@
 	font-family: connectionSerif;
 	src: url(ConnectionSerif-d20X.otf);
 }
+@font-face {
+	font-family: ;
+	src= url();
+}
 * {
    font-family: arcade;
 }
