@@ -36,14 +36,18 @@
 }
 .sun {
 	background-image: url('Sun.png');
+	background-size: 75px;
 	height: 75px;
+	width: 75px;
 }
 .sun:hover {
 	transition: scale(1.2);
 }
 .moon {
 	background-image: url('Moon.png');
+	background-size: 75px;
 	height: 75px;
+	width: 75px;
 }
 .moon:hover {
 	transition: scale(1.2);
