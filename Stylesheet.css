@@ -3,7 +3,7 @@
   src: url(ARCADECLASSIC.TTF);
 }
 * {
-   font-family: myFirstFont;
+   font-family: arcade;
 }
 
 .button {
