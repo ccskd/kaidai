@@ -36,7 +36,7 @@
 }
 .sun {
 	background-image: url('Sun.png');
-	height: 75px
+	height: 75px;
 }
 .sun:hover {
 	transition: scale(1.2);
