@@ -60,10 +60,13 @@
 .moon:hover {
 	transition: scale(1.2);
 }
-.h1 {
+h1 {
 	color: white;
 	font-size: 64px;
 	font-weight: bold;
+}
+p {
+	font-size: 20px;
 }
 .hline {
 	margin: 30px;
