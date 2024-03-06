@@ -73,6 +73,11 @@ p {
 }
 .eventDiv {
 	width: 100%;
+	background-color: black;
+	opacity: 70%;
+}
+.eventDivL {
+	width: 100%;
 	background-color: white;
 	opacity: 70%;
 }
