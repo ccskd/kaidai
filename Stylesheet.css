@@ -55,7 +55,7 @@
 	transform: scale(0.8) rotate(360deg);
 }
 .moon {
-	background-image: url('Moon.png');
+	background-image: url('moon.png');
 	background-size: cover;
 	height: 75px;
 	width: 75px;
