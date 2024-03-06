@@ -71,3 +71,8 @@ p {
 .hline {
 	margin: 30px;
 }
+.eventDiv {
+	width: 100%;
+	background-color: white;
+	opacity: 70%;
+}
