@@ -69,7 +69,8 @@ p {
 	font-size: 20px;
 }
 .hline {
-	margin: 30px;
+	margin: 30px 20px;
+	color: white;
 }
 .eventDiv {
 	width: 100%;
