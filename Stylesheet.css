@@ -74,11 +74,9 @@ p {
 }
 .eventDiv {
 	width: 100%;
-	background-color: black;
-	opacity: 70%;
+	background-color: rgba(0,0,0,0.7);
 }
 .eventDivL {
 	width: 100%;
-	background-color: white;
-	opacity: 70%;
+	background-color: rgba(255, 255, 255, 0.7);
 }
