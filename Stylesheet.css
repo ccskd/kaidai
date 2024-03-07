@@ -86,5 +86,5 @@ p {
 	border: 30px solid black;
 	margin: 20px 14px;
 	padding: 8px;
-	border-image: url("Bitmap.png") 21 / 28px 28px 28px 28px / 18px 0px 18px 0px round;
+	border-image: url("Bitmap.png") 21 / 28px 28px 28px 28px / 18px 18px 18px 18px round;
 }
