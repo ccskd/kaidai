@@ -101,3 +101,8 @@ th {
 	font-size: 34px;
 	font-weight: bold;
 }
+.divTeam {
+	border-radius: 20px;
+	padding: 10px 5px;
+	margin: 20px;
+}
