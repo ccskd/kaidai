@@ -94,4 +94,6 @@ p {
 	background-image: url('https://imagizer.imageshack.com/img922/9020/0W3tU2.png')no-repeat; 
 	background-size:cover;
 }
-	
+th {
+	font-size: 24px;
+}
