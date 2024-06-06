@@ -10,6 +10,10 @@
    font-family: arcade;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 .button {
 	border: none;
 	padding: 9px 16px;
