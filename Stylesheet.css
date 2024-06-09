@@ -118,7 +118,7 @@ marquee {
 }
 .board {
 	border-radius: 20px;
-	background-color: #F22B00;
+	background-color: red;
 	padding: 4%;
 	filter: drop-shadow(5px 3px 0px white);
 
