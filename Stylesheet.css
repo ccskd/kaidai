@@ -116,3 +116,10 @@ marquee {
 	color: white;
 	margin: 0px 0px 10px 0px;
 }
+.board {
+	border-radius: 20px;
+	background-color: #F22B00;
+	padding: 4%;
+	filter: drop-shadow(5px 3px 0px white);
+
+}
