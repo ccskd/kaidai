@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 35px;
+}
+.home {
+  background-image: url('https://imagizer.imageshack.com/img922/6758/mkT2v2.png');
+  background-size: cover;
+}
+img{
+  display: inline-block;
+}
+.pimg {
+  --f: .1;
+  /* the parallax factor (the smaller the better) */
+  --r: 5px;
+  /* radius */
+
+  --_f: calc(100%*var(--f)/(1 + var(--f)));
+  --_a: calc(90deg*var(--f));
+  width: 250px;
+  /* the image size */
+  aspect-ratio: calc(1 + var(--f));
+  object-fit: cover;
+  clip-path: inset(0 var(--_f) 0 0 round var(--r));
+  transform: perspective(400px) var(--_t, rotateY(var(--_a)));
+  transition: .3s;
+  cursor: pointer;
+  display: inline-block;
+  margin: 30px 10px;
+  margin-top: -50px;
+  height: 320px;
+}
+
+.pimg:hover {
+  clip-path: inset(0 0 0 var(--_f) round var(--r));
+  --_t: translateX(calc(-1*var(--_f))) rotateY(calc(-1*var(--_a)))
+}
+
+.section{
+  width: 100%;
+  margin: 20px 0px;
+}
+.parallax-inner{
+  position:relative;
+  min-height: 500px;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.sc {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  border-radius: 20px;
+  height: 170px;
+  margin: 50px 20px; 
+  background: linear-gradient(to left, rgba(255, 131, 12, 0.75), rgb(141, 36, 5, 0.75));
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  background: #F2411A;
+  padding: 10px 110px 10px 20px;
+  font-size: 20px;
+  transform: skew(-20deg);
+  filter: drop-shadow(8px 8px 0 #4D1403);
+  color: #f8f5ee;
+  border:none;
+}
+label:hover {
+  filter: drop-shadow(15px 15px 0 #4D1403);
+  transition-duration: 0.2s;
+  animation-name: jump;
+  animation-duration: 0.3s;
+  background: #ff8800;
+}
+@keyframes jump{
+  0%{}
+  50%{margin-top: -20px}
+  100%{filter: drop-shadow(15px 15px 0 black);}
+}
+
+/*
+#8D2405: rust
+#F8F5EE: rice
