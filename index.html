@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>Caau Ce Siu Kai Dai</title>
-  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="style.scss" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body class="home">
   <script src="script.js"></script>
-    <div style="width: 100%;"> <!--NEWS AND PROMOTION-->
+    <!--<div style="width: 100%;">
         <table background="https://media1.tenor.com/m/B3E859r4qGUAAAAd/yakuza.gif" width="100%" height="150" border="0" style="border:5px #F2401A groove">
           <tr>
             <td><img height="150px" src="https://media1.tenor.com/m/MVpfNx2QgFwAAAAd/skeleton.gif"></td>
@@ -19,29 +19,65 @@
             <td cellpadding="10px"><img align="right" height="150px" src="https://media1.tenor.com/m/Z_qH4t-zKKwAAAAC/ok.gif"></td>
           </tr>
         </table>
-    </div>
-  <div class="section" style="background: #f8f5ee">
-    <table>
+    </div>-->
+  <div class="section" style="background: linear-gradient(to right, #f8f5ee 30%, #FF830C,#F2411A,#8D2405); filter: drop-shadow(0px 8px 0 #8D2405); margin-top: -20px;">
+    <table width="100%" style="padding-right: 80px;">
       <tr>
-        <td><img src="images/logo1.jpg" width="310px"></td>
+        <td width="310px"><img src="images/logo1.jpg" width="310px"></td>
         <td><h1>炒車小契弟</h1><br>
-        <p>Caau Ce Siu Kai Dai</p></td>
+        <h2>Caau Ce Siu Kai Dai</h2></td>
+        <td style="text-align: right;"><a href="https://www.instagram.com/caau_ce_siu_kai_dai/"><img class="icon" src="images/Instagram.png"></a></td>
       </tr>
     </table>
-
   </div>
-    <div class="sc" style="text-align: center; width: 100%; margin-left:-20px;">
-      <a href="race.html"><img class="pimg" src="https://picsum.photos/id/669/300/300"></a>
-      <a href="news.html"><img class="pimg" src="https://assets.codepen.io/1480814/pexels-pixabay-62655.jpg" style="--f:.12;--r:5px;"></a>
-      <a href="racer/racer.html"href><img class="pimg" src="https://picsum.photos/id/326/300/300" style="--f:.08;--r:5px"></a>
-      <a href><img class="pimg" src="images/logo1.jpg"></a>
+  
+  <div class="sc" style="text-align: center; width: 100%; margin-left:-20px;">
+    <a href="racer.html"><img class="pimg" src="images/racer.png"></a>
+    <a href="races.html"><img class="pimg" src="images/race.png" style="--f:.12;--r:5px;"></a>
+    <a href=#kaidai><img class="pimg" src="images/kaidai.png" style="--f:.08;--r:5px"></a>
+    <a onclick="construction()"><img class="pimg" src="images/album.png"></a>
+  </div>
+  
+  <div class="parallax" style="background-image: url('images/race_bg.PNG'); padding: 10vh 0">
+    <div class="section" style="background: linear-gradient(to bottom,rgba(242,65,26,0.75), rgba(255, 131, 12)); padding: 20px 0">
+        <table class="promotion" cellpadding="15px">
+          <tr>
+            <td><a href="25mock.html"><img src="images/mock_finalLap.png" style="height: 450px;"</a></td>
+            <td>MOCK FINAL LAP <br><br>
+              <a href="25mock.html" class="btn" style="font-size: 35px;">GO TO PAGE</a>
+            </td>
+          </tr>
+        </table>
     </div>
-  <div class="secion parallax-inner">
-        
+    <br>
+    <div class="section" style="background: linear-gradient(to bottom,rgba(255, 131, 12, 0.75) 60%, white); padding: 20px 0">
+        <table class="promotion" cellpadding="15px">
+          <tr>
+            <td><a href="25dse.html"><img src="images/DSE.png" style="height: 450px"></a></td>
+            <td>FINAL LAP presented by C.C.S.K.D.<br><br>
+              <a href="25dse.html" class="btn" style="font-size: 35px;">GO TO PAGE</a>
+            </td>
+          </tr>
+        </table>
+    </div>
   </div>
-  <div>
-    <h1>契弟通報</h1>
-    
+  <div class="section" style="padding: 30px; background: white;">
+    <label class="label1">甚麼是炒車小契弟?</label><br>
+    <p>
+      炒車小契弟（C.C.S.K.D.）已成立滿一週年，乃專業播報組織。內容圍繞各炒手於炒車賽事之表現、賽後檢討與賽事結果，亦不定期會有來自不同炒手互相爆料的文章，為本報內容增添幾分激情。同時，本組織秉持着以真實為上的精神、炒到飛起的行動力及激動的心態為各炒友帶來最高質素的報料文。
+    </p>
+    <label class="label1">甚麼是炒?</label><br>
+    <p>
+      「炒」乃一種活動，即是當一人表現差勁到極致而轉變成為優良時的行為。「炒」亦可作為一種劇烈運動，原因是它對炒友的心理質素甚至是體能上都有極高要求。
+    </p>
   </div>
+  <center>
+  <div id="kaidai" class="sc" style="width: 80%">
+    <h1 style="color: white">契弟通報</h1>
+    <div class="race" style="width: 200px">
+      > <a style="color: black" href="https://online.fliphtml5.com/ccskd/zlxj/">ISSUE #02</a>
+    </div>
+  </div>
+  </center>
 </body>
 </html>
